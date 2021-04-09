@@ -20,7 +20,7 @@ from TestApp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('ccrformpost/',views.student_create),
-    path('CcrGet/',views.CcrFormGet),
+    path('CcrGetAPI/',views.CcrFormGet),
     path('CcrGet/<int:pk>',views.CcrFormGetPrimaryKey),
     path('RequestorGet/',views.RequestorGet),
     path('RequestorNameGet/<str:name>',views.RequestorNameGet),
