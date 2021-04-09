@@ -87,7 +87,8 @@ DATABASES = {
         'HOST': 'qbd.database.windows.net',
         'PORT': '',
         'OPTIONS': {
-            'driver': 'ODBC Driver 17 for SQL Server',
+            'driver': 'SQL Server Native Client 11.0',
+            'MARS_Connection':'True',
         },
     }
 }
